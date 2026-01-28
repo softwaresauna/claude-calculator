@@ -8,5 +8,10 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
     },
+    server: {
+      deps: {
+        inline: ['@exodus/bytes'],
+      },
+    },
   },
 });
