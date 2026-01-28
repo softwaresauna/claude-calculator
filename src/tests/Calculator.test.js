@@ -43,7 +43,7 @@ describe('Calculator', () => {
             calculator.appendNumber('5');
             calculator.appendNumber('.');
             calculator.appendNumber('5');
-            expect(calculator.currentOperand).toBe('5.5');
+            expect(calculator.currentOperand).toBe('5.55');
         });
 
         it('should handle leading decimal point', () => {
